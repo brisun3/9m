@@ -54,6 +54,11 @@ return [
 
     'url' => env('APP_URL', 'http://localhost'),
 
+<<<<<<< HEAD
+=======
+    'asset_url' => env('ASSET_URL', null),
+
+>>>>>>> 0e984abf5beb29d03b5b5167e7cf4e37c0f627f9
     /*
     |--------------------------------------------------------------------------
     | Application Timezone
@@ -95,6 +100,22 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+<<<<<<< HEAD
+=======
+    | Faker Locale
+    |--------------------------------------------------------------------------
+    |
+    | This locale will be used by the Faker PHP library when generating fake
+    | data for your database seeds. For example, this will be used to get
+    | localized telephone numbers, street address information and more.
+    |
+    */
+
+    'faker_locale' => 'en_US',
+
+    /*
+    |--------------------------------------------------------------------------
+>>>>>>> 0e984abf5beb29d03b5b5167e7cf4e37c0f627f9
     | Encryption Key
     |--------------------------------------------------------------------------
     |
@@ -146,7 +167,10 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+<<<<<<< HEAD
         Collective\Html\HtmlServiceProvider::class,
+=======
+>>>>>>> 0e984abf5beb29d03b5b5167e7cf4e37c0f627f9
 
         /*
          * Package Service Providers...
@@ -160,8 +184,11 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+<<<<<<< HEAD
         App\Providers\IpServiceProvider::class,
         
+=======
+>>>>>>> 0e984abf5beb29d03b5b5167e7cf4e37c0f627f9
 
     ],
 
@@ -179,6 +206,10 @@ return [
     'aliases' => [
 
         'App' => Illuminate\Support\Facades\App::class,
+<<<<<<< HEAD
+=======
+        'Arr' => Illuminate\Support\Arr::class,
+>>>>>>> 0e984abf5beb29d03b5b5167e7cf4e37c0f627f9
         'Artisan' => Illuminate\Support\Facades\Artisan::class,
         'Auth' => Illuminate\Support\Facades\Auth::class,
         'Blade' => Illuminate\Support\Facades\Blade::class,
@@ -208,11 +239,18 @@ return [
         'Schema' => Illuminate\Support\Facades\Schema::class,
         'Session' => Illuminate\Support\Facades\Session::class,
         'Storage' => Illuminate\Support\Facades\Storage::class,
+<<<<<<< HEAD
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
+=======
+        'Str' => Illuminate\Support\Str::class,
+        'URL' => Illuminate\Support\Facades\URL::class,
+        'Validator' => Illuminate\Support\Facades\Validator::class,
+        'View' => Illuminate\Support\Facades\View::class,
+>>>>>>> 0e984abf5beb29d03b5b5167e7cf4e37c0f627f9
 
     ],
 
